@@ -3,7 +3,7 @@ import {
   FaBookOpen,
   FaDatabase,
   FaCode,
-  FaChartLine,
+  FaRobot,
 } from "react-icons/fa";
 
 export const links = [
@@ -24,7 +24,7 @@ export const links = [
     hash: "#skills",
   },
   {
-    name: "Experience",
+    name: "Learning Journey",
     hash: "#experience",
   },
 ] as const;
@@ -50,16 +50,16 @@ export const experiencesData = [
     title: "Learning Journey",
     location: "Applied Machine Learning and SQL Projects",
     description:
-      "Focused on building real-world projects in Machine Learning and SQL. Applied practical knowledge to develop predictive models and data-driven solutions.",
+      "Focused on building real-world projects in Machine Learning and SQL. Applied practical knowledge to develop predictive models and data-driven solutions.\n\n• Built a Data Warehouse using ETL pipelines and implemented a 3-layer architecture (Bronze, Silver, and Gold layers) for efficient data processing and management.\n• Designed and developed interactive Power BI dashboards for business insights and data visualization.\n• Explored and implemented Star Schema and Snowflake Schema data models for analytical reporting and warehouse optimization.\n• Gained hands-on experience in data modeling, data transformation, and reporting workflows.",
     icon: React.createElement(FaCode),
     date: "2025 - 2026",
   },
   {
     title: "Learning Journey",
-    location: "Data Analytics and Data Engineering",
+    location: "AI Agents, RAG, Data Analytics and Data Engineering",
     description:
-      "Expanded into analytics and engineering tools by using Power BI for dashboarding and visualization, and Databricks for data processing and workflow development.",
-    icon: React.createElement(FaChartLine),
+      "Currently exploring and building AI Agents and Retrieval-Augmented Generation (RAG) applications. Learning LangChain, vector databases, embeddings, prompt engineering, document chunking, and agent workflows. Expanding knowledge in Data Engineering, Databricks, and analytics tools while building intelligent AI-powered solutions.",
+    icon: React.createElement(FaRobot),
     date: "2026 - Present",
   },
 ] as const;
