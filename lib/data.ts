@@ -118,11 +118,17 @@ export const projectsData = [
 
 export const skillsData = [
   "Python",
+  "SQL",
   "C++",
+  "PySpark",
+  "dbt",
+  "Snowflake",
   "AWS",
-  "Power BI",
   "MS SQL Server",
   "Databricks",
+  "Power BI",
+  "LangChain",
+  "CrewAI",
   "Git",
   "GitHub",
 ] as const;

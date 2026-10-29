@@ -18,38 +18,39 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
+
       <p className="mb-3">
-        I am currently pursuing Computer Science Engineering (AI & ML) at SRM
-        Ramapuram. My primary interests lie in machine learning, data analytics,
-        and data engineering.
+        I&apos;m a Computer Science Engineering student specializing in
+        Artificial Intelligence and Machine Learning at SRM Institute of Science
+        and Technology, Ramapuram, with a CGPA of 9.64/10. My work spans data
+        engineering, data analytics, machine learning, and Generative AI — areas
+        where I focus on building practical, well-structured technical solutions.
       </p>
 
       <p className="mb-3">
-        I enjoy working with data, understanding patterns, and solving
-        real-world problems through practical approaches. I have been building a
-        strong foundation in Python and SQL, and I am continuously exploring how
-        data can be transformed into meaningful insights.
+        On the data engineering side, I have hands-on experience designing
+        pipelines that move raw data through Bronze, Silver, and Gold medallion
+        layers using tools like MS SQL Server, Snowflake, dbt Core, and AWS S3.
+        I work with incremental loading, SCD Type 2 historical tracking, and
+        data modeling patterns to produce analytics-ready datasets. I also build
+        analytical dashboards in Power BI using DAX and Power Query.
       </p>
 
       <p className="mb-3">
-        As part of my learning journey, I have worked on multiple projects
-        involving data preprocessing, basic machine learning models, and
-        analytics dashboards. These experiences have helped me understand the
-        importance of clean data, structured workflows, and effective
-        visualization.
+        In Generative AI, I have built a document-based RAG pipeline that
+        handles ingestion, chunking, embedding generation, and vector retrieval
+        using ChromaDB and LangChain, as well as a multi-agent research
+        assistant with CrewAI that coordinates specialized agents for research,
+        analysis, and report writing. I have also developed several machine
+        learning models across classification and prediction tasks using Python
+        and scikit-learn, and have solved over 150 problems on LeetCode.
       </p>
 
-      <p className="mb-3">
-        I am also gaining hands-on experience with tools like Power BI and
-        Databricks to strengthen my skills in data analysis and data engineering
-        workflows.
-      </p>
-
-      <p>
-        I am focused on continuously improving my problem-solving skills and
-        applying what I learn to real-world scenarios. I am always eager to
-        learn new technologies and grow in the field of AI and data.
-      </p>
+      <div className="mt-5 inline-block rounded-xl border border-black/10 bg-white px-5 py-3 text-sm leading-relaxed dark:bg-white/10 dark:border-white/20 dark:text-white/80">
+        <p className="font-semibold text-gray-900 dark:text-white">B.Tech CSE (AI &amp; ML)</p>
+        <p className="text-gray-600 dark:text-white/60">SRM Institute of Science and Technology</p>
+        <p className="text-gray-600 dark:text-white/60">CGPA: 9.64 / 10 &nbsp;·&nbsp; 2023 – 2027</p>
+      </div>
     </motion.section>
   );
 }
