@@ -86,6 +86,34 @@ export const projectsData = [
     tags: ["Power BI", "Power Query", "DAX"],
     githubUrl: "https://github.com/Varunsaketh/Chocolate-sales-dashboard-",
   },
+  {
+    title: "Airbnb Data Engineering Pipeline",
+    description:
+      "Built an end-to-end ELT pipeline that processes Airbnb data using AWS S3, Snowflake, and dbt Core. Implemented a Bronze, Silver, and Gold medallion architecture to organize data ingestion, transformation, and analytics-ready modeling.\n\nKey Features:\n- Loaded raw Airbnb data from AWS S3 into Snowflake\n- Incremental loading on Silver-layer booking models\n- dbt snapshots for SCD Type 2 historical change tracking\n- Gold-layer One Big Table (OBT) for analytics\n- Jinja macros and dbt tests for reusable transformations and data quality",
+    tags: ["AWS S3", "Snowflake", "dbt Core", "SQL", "Jinja", "ETL/ELT"],
+    githubUrl: "https://github.com/Varunsaketh/Airbnb-project",
+  },
+  {
+    title: "Retrieval-Augmented Generation (RAG) Pipeline",
+    description:
+      "Developed a document-based Retrieval-Augmented Generation pipeline that processes multiple document formats, converts content into chunks, generates embeddings, and stores vectors for semantic retrieval.\n\nKey Features:\n- Ingested PDF, Excel, and text documents\n- Multiple chunking strategies (Recursive, SpaCy, and NLTK splitters)\n- Embeddings with Sentence Transformers (all-MiniLM-L6-v2)\n- Persistent ChromaDB storage of embeddings and document metadata\n- Query embedding generation and similarity-based retrieval of relevant chunks",
+    tags: [
+      "Python",
+      "LangChain",
+      "ChromaDB",
+      "Sentence Transformers",
+      "NLP",
+      "Embeddings",
+    ],
+    githubUrl: "https://github.com/Varunsaketh/RAG-Learning-project",
+  },
+  {
+    title: "AI Research Assistant",
+    description:
+      "Developed a multi-agent AI research assistant using CrewAI to gather information from the internet, analyze research findings, and generate structured written reports.\n\nKey Features:\n- Three specialized agents: Research, Analysis, and Writer\n- Research Agent collects web information using Serper and website scraping tools\n- Analysis Agent reviews gathered material and produces insights\n- Writer Agent converts the analysis into a structured report\n- Groq as the default LLM, with Gemini supported through CrewAI's Google GenAI extra",
+    tags: ["Python", "CrewAI", "Gemini", "Groq", "LLMs", "Multi-Agent Systems"],
+    githubUrl: "https://github.com/Varunsaketh/AI-Research-Assistant-",
+  },
 ] as const;
 
 export const skillsData = [
